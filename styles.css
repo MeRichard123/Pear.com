@@ -449,7 +449,11 @@ footer .bottom {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr);
+<<<<<<< HEAD
     grid-template-columns: repeat(2, 1fr);
+=======
+        grid-template-columns: repeat(2, 1fr);
+>>>>>>> f0400b3e08af5b6a097de734dc8bde3bc57ab1b3
     padding-top: 2.5rem;
   }
   label::before {
@@ -480,4 +484,7 @@ footer .bottom {
     cursor: pointer;
   }
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=styles.css.map */
+=======
+>>>>>>> f0400b3e08af5b6a097de734dc8bde3bc57ab1b3
