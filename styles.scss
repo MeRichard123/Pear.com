@@ -269,7 +269,7 @@ footer {
 }
 @media screen and (max-width: 1239px) {
   html {
-    font-size: 80%;
+    font-size: 70%;
   }
   html,
   body {
@@ -284,15 +284,6 @@ footer {
   }
   .page-two {
     flex-direction: column;
-  }
-  .phone-x-text {
-    h1,
-    h2 {
-      font-size: 50%;
-    }
-    .text-link h3 {
-      font-size: 30px;
-    }
   }
   .image img {
     height: calc(1vw + 200px);

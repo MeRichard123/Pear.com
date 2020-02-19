@@ -390,7 +390,7 @@ footer .bottom {
 
 @media screen and (max-width: 1239px) {
   html {
-    font-size: 80%;
+    font-size: 70%;
   }
   html,
   body {
@@ -408,13 +408,6 @@ footer .bottom {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .phone-x-text h1,
-  .phone-x-text h2 {
-    font-size: 50%;
-  }
-  .phone-x-text .text-link h3 {
-    font-size: 30px;
   }
   .image img {
     height: calc(1vw + 200px);
