@@ -390,7 +390,7 @@ footer .bottom {
 
 @media screen and (max-width: 1239px) {
   html {
-    font-size: 70%;
+    font-size: 80%;
   }
   html,
   body {
@@ -415,7 +415,6 @@ footer .bottom {
   }
   .text-wrap {
     height: 80%;
-    font-size: 50%;
   }
   .right {
     -webkit-box-shadow: none;
