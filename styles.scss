@@ -264,7 +264,10 @@ footer {
 @media screen and (max-width: 1239px) {
   html {
     font-size: 80%;
-    overflow-x: hidden;
+  }
+  html,
+  body {
+    overflow-x: hidden !important;
   }
   .intro {
     background-position: center;
@@ -280,10 +283,15 @@ footer {
     height: calc(1vw + 200px);
     padding: 0;
   }
+  .text-wrap {
+    height: 80%;
+    font-size: 50%;
+  }
   .right {
     box-shadow: none;
   }
   .laptop {
+    overflow-x: hidden !important;
     flex-direction: column;
     .left {
       width: 100%;
