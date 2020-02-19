@@ -306,6 +306,9 @@ footer {
   .left img {
     display: none;
   }
+  .right img {
+    height: calc(1vw + 100px);
+  }
   .toggler {
     display: block;
   }
