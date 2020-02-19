@@ -404,6 +404,9 @@ footer .bottom {
     font-size: 80%;
     overflow-x: hidden;
   }
+  *{
+    border: 1px solid red;
+  }
   .intro {
     background-position: center;
     color: #eee;
