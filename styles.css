@@ -416,6 +416,12 @@ footer .bottom {
   .text-wrap {
     height: 80%;
   }
+  .text-wrap .phone-x-text h1 {
+    font-size: 0.8rem;
+  }
+  .text-wrap .text-link h3 {
+    font-size: 1rem;
+  }
   .right {
     -webkit-box-shadow: none;
             box-shadow: none;
