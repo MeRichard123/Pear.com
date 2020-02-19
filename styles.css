@@ -429,7 +429,7 @@ footer .bottom {
     min-height: 200px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(2, 1fr);
     padding-top: 2.5rem;
   }
@@ -461,9 +461,3 @@ footer .bottom {
     cursor: pointer;
   }
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=styles.css.map */
-=======
-/*# sourceMappingURL=styles.css.map */
-
->>>>>>> 0da1916772e85e0deac73cac694fb0eee0aa055f
