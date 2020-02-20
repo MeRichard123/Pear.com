@@ -1,0 +1,66 @@
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000, $alpha: 0.7);
+  position: absolute;
+  top: 94vh;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-content {
+  position: relative;
+  width: 600px;
+  height: 380px;
+  background: white;
+  border-radius: 4px;
+  padding: 20px 0;
+  img {
+    position: absolute;
+    transform: rotate(-33deg);
+  }
+  .selling {
+    position: absolute;
+    right: 14px;
+    top: 50px;
+    form {
+      display: flex;
+      flex-direction: column;
+      .button-group {
+        padding: 2.5rem 1.2rem;
+        display: flex;
+        flex-direction: column;
+        input,
+        select {
+          border-radius: 4px;
+          border: 1px solid #515151;
+        }
+        h4 {
+          border-radius: 14px;
+          border: 2px solid #515151;
+          color: #515151;
+          text-align: center;
+          padding: 6px;
+          margin-bottom: 1.2rem;
+          cursor: pointer;
+          &:hover {
+            color: white;
+            background: #515151;
+          }
+        }
+      }
+    }
+  }
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.fixed-wrapper {
+  position: fixed;
+  z-index: 10;
+}

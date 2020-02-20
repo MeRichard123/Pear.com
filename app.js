@@ -1,5 +1,7 @@
 const navigation = document.querySelector("nav");
 const checkbox = document.querySelector("input[name=theme]");
+const buyBtn = document.querySelector("#Purchase");
+const popUp = document.querySelector(".bg-modal");
 
 window.addEventListener("load", () => {
   setInterval(reset, 100);
@@ -32,4 +34,13 @@ let trans = () => {
 AOS.init({
   offset: 400,
   duration: 1000
+});
+
+buyBtn.addEventListener("click", () => {
+  popUp.style.display = "flex";
+  document.querySelector("body").classList.add("stop-scrolling");
+});
+document.querySelector(".close").addEventListener("click", function() {
+  document.querySelector("body").classList.remove("stop-scrolling");
+  popUp.style.display = "none";
 });
