@@ -588,6 +588,12 @@ footer .bottom a {
 }
 
 @media screen and (max-width: 1239px) {
+  .modal-content img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1239px) {
   html {
     font-size: 80%;
   }
