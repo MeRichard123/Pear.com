@@ -65,8 +65,12 @@
   z-index: 10;
 }
 
-@media screen and (max-width: 1239px) {
+@media screen and (max-width: 650px) {
   .modal-content img {
     display: none;
+  }
+  .bg-modal .selling {
+    width: 80%;
+    text-align: center;
   }
 }
