@@ -611,6 +611,7 @@ footer .bottom a {
   }
   .intro-text {
     line-height: initial;
+    margin-top: 25px;
   }
   .movies__more {
     font-size: 1rem !important;
