@@ -215,9 +215,9 @@ html.transition *:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -241,7 +241,7 @@ html.transition *:after {
 .text-link h3 {
   padding: 0 1.2rem;
   text-align: center;
-  width: 150px;
+  width: 200px;
   border-radius: 25px;
   -webkit-box-shadow: -9px -9px 9px 0 var(--light-neumorphic), 9px 9px 9px 0 var(--neumorphic-shadow);
           box-shadow: -9px -9px 9px 0 var(--light-neumorphic), 9px 9px 9px 0 var(--neumorphic-shadow);
@@ -441,7 +441,7 @@ html.transition *:after {
   color: #25abf8;
   padding: 1.2rem 1.3rem;
   border-radius: 30px;
-  margin-top: 1.2rem;
+  margin: 1.2rem;
   -webkit-box-shadow: -9px -9px 9px 0 var(--light-neumorphic), 9px 9px 9px 0 var(--neumorphic-shadow);
           box-shadow: -9px -9px 9px 0 var(--light-neumorphic), 9px 9px 9px 0 var(--neumorphic-shadow);
 }
@@ -608,6 +608,9 @@ footer .bottom a {
   .intro {
     background-position: center;
     color: #eee;
+  }
+  .intro-text {
+    line-height: initial;
   }
   .movies__more {
     font-size: 1rem !important;
