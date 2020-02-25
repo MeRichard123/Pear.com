@@ -170,7 +170,7 @@ html.transition *:after {
 /*Dark mode toggler */
 .intro {
   height: 94vh;
-  background: url("./img/grey-scale-photo-of-person-holding-smartphone-1100447.jpg");
+  background: url("../img/grey-scale-photo-of-person-holding-smartphone-1100447.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -631,10 +631,10 @@ footer .bottom a {
     height: 80%;
   }
   .text-wrap .phone-x-text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .text-wrap .text-link h3 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .right {
     -webkit-box-shadow: none;
