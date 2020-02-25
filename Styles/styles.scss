@@ -132,202 +132,13 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 /*Dark mode toggler */
-.intro {
-  height: 94vh;
-  background: url("./img/grey-scale-photo-of-person-holding-smartphone-1100447.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
-}
-.intro-title {
-  font-size: 5.5rem;
-}
-.title-wrapper {
-  height: 94vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 0 0 2.5rem;
-  line-height: 4.5rem;
-}
-.intro-link {
-  text-decoration: none;
-  color: #25abf8;
-  font-weight: bold;
-  font-size: 1.6rem;
-  &:hover {
-    text-decoration: underline;
-  }
-}
+@import "./intro";
 /*Pear Phone Section*/
-.page-two {
-  height: 94vh;
-  background: var(--clr-light);
-  color: var(--clr-dark);
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.text-link {
-  a {
-    text-decoration: none;
-    color: #25abf8;
-  }
-  display: flex;
-  justify-content: start;
-  background: none;
-}
-.text-link h3 {
-  padding: 0 1.2rem;
-  text-align: center;
-  width: 200px;
-  border-radius: 25px;
-  box-shadow: -9px -9px 9px 0 var(--light-neumorphic),
-    9px 9px 9px 0 var(--neumorphic-shadow);
-}
-.text-link h3:hover {
-  cursor: pointer;
-  box-shadow: inset -9px -9px 9px 0 var(--light-neumorphic),
-    inset 9px 9px 9px 0 var(--neumorphic-shadow);
-}
-.text-link h3:nth-child(1) {
-  margin-right: 2rem;
-}
-.price {
-  color: #6d6d6d;
-}
-.text-wrap {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  right: 50px;
-  line-height: 4rem;
-}
-.phone-x-text {
-  padding: 2.2rem 2.3rem;
-  border-radius: 30px;
-  box-shadow: -12px -12px 12px 0 var(--light-neumorphic),
-    12px 12px 12px 0 var(--neumorphic-shadow);
-  h1 {
-    font-size: 5rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-}
-.phone-x-text__image img {
-  height: calc(1vw + 400px);
-  margin: 0;
-  padding: 0 6rem 0 0;
-}
+@import "./pageTwo";
 /*Movies Section*/
-.movies {
-  position: relative;
-}
-.movies img {
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-}
-.movie-banner {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  width: 100%;
-  height: 150px;
-  justify-content: space-around;
-  background: linear-gradient(90deg, var(--black), var(--blackTone));
-  align-items: center;
-  .center {
-    color: white;
-    text-align: center;
-    h1 {
-      font-size: 3rem;
-    }
-  }
-  .movies__more {
-    text-decoration: none;
-    color: #156492;
-    font-size: 1rem;
-    font-weight: bold;
-    background: rgba($color: #fff, $alpha: 0.4);
-    padding: 0.8rem 1rem;
-    border-radius: 30px;
-    transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-    &:hover {
-      background: rgba($color: #fff, $alpha: 0.8);
-    }
-  }
-  .movies__free {
-    text-decoration: none;
-    background: var(--clr-light);
-    color: var(--clr-dark);
-    padding: 0.8rem 1rem;
-    border-radius: 30px;
-    transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-    &:hover {
-      background: var(--clr-dark);
-      color: var(--clr-light);
-    }
-  }
-}
+@import "./movies";
 /*Mac Book Section*/
-.laptop {
-  height: 100vh;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  color: var(--clr-dark);
-  .text {
-    width: 60%;
-    margin-left: 100px;
-    h1 {
-      padding-bottom: 1.5rem;
-    }
-  }
-  .left {
-    width: 50%;
-  }
-  .left img {
-    height: calc(1vw + 400px);
-    filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.8));
-  }
-  .right img {
-    height: calc(1vw + 300px);
-    filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.8));
-  }
-  .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    box-shadow: -12px -12px 12px 0 var(--light-neumorphic),
-      12px 12px 12px 0 var(--neumorphic-shadow);
-  }
-  .mac-title {
-    display: flex;
-    margin-bottom: 1.2rem;
-    .logo {
-      height: 30px;
-      filter: brightness(0);
-    }
-  }
-  .learn-more {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #25abf8;
-    padding: 1.2rem 1.3rem;
-    border-radius: 30px;
-    margin: 1.2rem;
-    box-shadow: -9px -9px 9px 0 var(--light-neumorphic),
-      9px 9px 9px 0 var(--neumorphic-shadow);
-    &:hover {
-      box-shadow: inset -9px -9px 9px 0 var(--light-neumorphic),
-        inset 9px 9px 9px 0 var(--neumorphic-shadow);
-    }
-  }
-}
+@import "./laptop";
 /*Footer*/
 footer {
   .toggler {
@@ -362,6 +173,8 @@ footer {
   }
 }
 @import "./modal";
+
+/*MEDIA QUERIES*/
 @media screen and (max-width: 1239px) {
   html {
     font-size: 80%;
@@ -391,7 +204,7 @@ footer {
   .text-wrap {
     height: 80%;
     .phone-x-text h1 {
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
     .text-link h3 {
       font-size: 1rem;

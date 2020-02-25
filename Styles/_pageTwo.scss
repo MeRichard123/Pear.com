@@ -1,0 +1,60 @@
+.page-two {
+  height: 94vh;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text-link {
+  a {
+    text-decoration: none;
+    color: #25abf8;
+  }
+  display: flex;
+  justify-content: start;
+  background: none;
+}
+.text-link h3 {
+  padding: 0 1.2rem;
+  text-align: center;
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: -9px -9px 9px 0 var(--light-neumorphic),
+    9px 9px 9px 0 var(--neumorphic-shadow);
+}
+.text-link h3:hover {
+  cursor: pointer;
+  box-shadow: inset -9px -9px 9px 0 var(--light-neumorphic),
+    inset 9px 9px 9px 0 var(--neumorphic-shadow);
+}
+.text-link h3:nth-child(1) {
+  margin-right: 2rem;
+}
+.price {
+  color: #6d6d6d;
+}
+.text-wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  right: 50px;
+  line-height: 4rem;
+}
+.phone-x-text {
+  padding: 2.2rem 2.3rem;
+  border-radius: 30px;
+  box-shadow: -12px -12px 12px 0 var(--light-neumorphic),
+    12px 12px 12px 0 var(--neumorphic-shadow);
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+.phone-x-text__image img {
+  height: calc(1vw + 400px);
+  margin: 0;
+  padding: 0 6rem 0 0;
+}
